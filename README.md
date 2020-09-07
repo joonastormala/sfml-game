@@ -18,4 +18,4 @@ How to run the game and additional information:
 
   * Sounds may cause crashing if you have any other sound playing
 
-  * game uses SFML library and cmake for compiling, make sure you have those installed
+  * game uses SFML library and cmake for compiling, make sure you have those installed.
