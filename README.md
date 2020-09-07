@@ -1,21 +1,19 @@
-# Sample README file for C++ programming project
+# README file for C++ programming project
 
 This is an initial git repository for your programming project.
 It contains an initial directory structure that we wish you could
 use as follows:
 
-  * `plan/` -- Your project plan should be put here. You may use different sources,
-    but we hope to get the plan **also as a pdf file**.
+  * `src/` -- Contains source files
 
-  * `doc/` -- The documentation sources related to your project should be put here.
-    You may use different tools for documentation (e.g. latex),
-    but we hope to get the final version of the document
-    **also as pdf file**.
+  * `Resources` -- Contains textures, sounds, fonts and map structure
 
-  * `src/` -- Here are the C++ source files. You can have subfolders as needed.
+How to run the game and additional information:
 
-  * `README.md` -- This file. You should modify it to represent
-    your project.
+  * `run.sh` & `compile.sh` -- Compiles the game. executable (rpg) is created into the build folder. `run.sh` runs this file automatically.
+  
+  * The game currently only works on linux operating systems (WSL does not work).
 
-You may also add other new directories as needed, for example
-for testing tools.
+  * If you have problems with crashing, disable MUSIC_ON variable in common.hpp file.
+
+  * Sounds may cause crashing if you have any other sound playing
