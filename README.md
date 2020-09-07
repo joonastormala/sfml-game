@@ -17,3 +17,5 @@ How to run the game and additional information:
   * If you have problems with crashing, disable MUSIC_ON variable in common.hpp file.
 
   * Sounds may cause crashing if you have any other sound playing
+
+  * game uses SFML library and cmake for compiling, make sure you have those installed
